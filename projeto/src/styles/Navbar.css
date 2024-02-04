@@ -1,0 +1,29 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;  /* Altere para flex-direction: column */
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;  /* Adicione esta linha para ajustar a margem inferior */
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
